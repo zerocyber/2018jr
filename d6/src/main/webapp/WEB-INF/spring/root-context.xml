@@ -9,13 +9,13 @@
 		<property name="connectionTestQuery" value="SELECT NOW()" />
 		<property name="maximumPoolSize" value="100" />
 		<property name="idleTimeout" value="30000" />
-		<!-- <property name="driverClassName" value="com.mysql.jdbc.Driver"></property> 
-			<property name="jdbcUrl" value="jdbc:mysql://10.10.10.38:3306/jr01?useSSL=false"></property> -->
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property> 
+			<property name="jdbcUrl" value="jdbc:mysql://10.10.10.38:3306/jr01?useSSL=false"></property>
 
-		<property name="driverClassName"
+<!--  		<property name="driverClassName"
 			value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
 		<property name="jdbcUrl"
-			value="jdbc:log4jdbc:mysql://10.10.10.38:3306/jr01?useSSL=false"></property>
+			value="jdbc:log4jdbc:mysql://10.10.10.38:3306/jr01"></property> -->
 
 		<property name="username" value="study"></property>
 		<property name="password" value="123456789"></property>
